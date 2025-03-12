@@ -1,20 +1,58 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Header() {
-    return (
-      <header className="text-white min-[416px]:flex items-center justify-around" aria-label='Site header'>
-        <nav className="container w-96">
-          <h1 className="text-2xl font-bold"><Link href="/" aria-label="Home - Bermel Georgis">Bermel Georgis</Link></h1>
-        </nav>
-        <nav className="w-96">
-          <ul className="flex items-center justify-evenly">
-            <li><Link href="/about" aria-label="About page">About</Link></li>
-            <li><Link href="/faq" aria-label="Frequently asked questions page">Questions</Link></li>
-            <li><Link href="/contact" aria-label="Contact page">Contact</Link></li>
-            <li><Link href="/map" aria-label="Map page">Map</Link></li>
-          </ul>
-        </nav>
-      </header>
-    );
-  }
-  
+  return (
+    <header
+      className="bg-blue-700 text-white flex flex-wrap items-center justify-between p-4"
+      aria-label="Site header"
+    >
+      <nav className="flex items-center">
+        <h1 className="text-2xl font-bold">
+          <Link href="/" aria-label="Navigate to the homepage">
+            Bermel Giorgis
+          </Link>
+        </h1>
+      </nav>
+      <nav aria-label="Primary navigation">
+        <ul className="flex gap-6">
+          <li>
+            <Link
+              href="/about"
+              aria-label="Learn more about Bermel Giorgis on the About page"
+              className="hover:underline"
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/faq"
+              aria-label="Visit the Frequently Asked Questions page"
+              className="hover:underline"
+            >
+              Questions
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/contact"
+              aria-label="Navigate to the Contact page for inquiries"
+              className="hover:underline"
+            >
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/map"
+              aria-label="View the map of Bermel Giorgis"
+              className="hover:underline"
+            >
+              Map
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
+}
