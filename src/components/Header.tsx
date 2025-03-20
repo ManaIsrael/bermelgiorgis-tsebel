@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header
-      className="bg-blue-700 text-white flex flex-wrap items-center justify-between p-4"
+      className="text-white flex flex-wrap items-center justify-between p-4"
       aria-label="Site header"
     >
       <nav className="flex items-center">

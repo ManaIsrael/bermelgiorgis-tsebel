@@ -17,7 +17,7 @@ export default function Home() {
             <Link
               href="/map"
               aria-label="Navigate to the map page for travel directions"
-              className="text-white font-bold bg-blue-600 hover:bg-blue-700 py-2 px-4 rounded mt-4 inline-block"
+              className="text-white font-bold py-2 px-4 rounded mt-4 inline-block"
             >
               Plan Your Journey
             </Link>
@@ -60,7 +60,7 @@ export default function Home() {
             </ul>
             <Link
               href="/faq"
-              className="text-white font-bold bg-blue-600 hover:bg-blue-700 py-2 px-4 rounded mt-4 block"
+              className="text-white font-bold bg-gray-600 py-2 px-4 rounded mt-4 block"
             >
               Learn More in the FAQ
             </Link>
