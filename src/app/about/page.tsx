@@ -21,10 +21,10 @@ export default function About() {
                         If you opt for a travel agency, your journey typically starts at Addis Ababa Airport, 
                         heading toward the sacred site. Terbinos Travel Agency has streamlined travel for those 
                         residing in the United States and Germany, making the experience more accessible. For 
-                        further details, please visit the
+                        further details, please visit the{" "}
                         <Link href="/contact" className="underline font-bold mx-1">
                             Contact
-                        </Link>
+                        </Link>{" "}
                         page.
                     </p>
 
@@ -60,7 +60,7 @@ export default function About() {
                         Many visitors, including those traveling with agencies, use a nearby river for showering. 
                         It is customary to shower alongside other baptizands or within the village before 
                         participating in baptism. Confession beforehand is also recommended and can be done 
-                        privately or with a priest at the church. While there is no formal verification, 
+                        with a priest at the church. While there is no formal verification, 
                         Saint George may inspire you to confess before your next baptism if you haven&apos;t already.
                     </p>
 
@@ -97,7 +97,7 @@ export default function About() {
                             className="text-blue-500 underline hover:text-blue-400 ml-1"
                         >
                             Ethiopia Free Time Academy
-                        </a>
+                        </a> {" "}
                         for more details.
                     </p>
                 </section>

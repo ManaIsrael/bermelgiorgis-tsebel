@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="min-h-screen p-8 sm:p-20 font-sans">
       <main className="flex flex-col gap-8 sm:items-start">
-        <section id="hero">
+        <section id="hero" className="bg-gray-800">
           <div className="caption text-center mt-6">
             <h1 className="text-2xl sm:text-3xl font-bold">
               Welcome to Bermel Giorgis
@@ -62,7 +62,7 @@ export default function Home() {
               href="/faq"
               className="text-white font-bold bg-gray-600 py-2 px-4 rounded mt-4 block"
             >
-              Learn More in the FAQ
+              Learn More in the Frequently Asked Question Section
             </Link>
           </article>
 
