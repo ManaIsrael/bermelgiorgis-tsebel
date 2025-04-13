@@ -6,6 +6,23 @@ export default function About() {
             <main className="flex flex-col gap-8 mt-10 sm:items-start">
                 <section>
                     <p>
+                        Bermel Giorgis is a revered holy site in Ethiopia known for its sacred 
+                        water, or "tsebel," which is believed to possess healing and spiritual 
+                        properties. Located in the Quara district near the Ethiopia-Sudan border, 
+                        this site attracts pilgrims seeking physical and spiritual healing 
+                        through rituals involving the holy water. Visitors often collect the 
+                        water to take home, using it for drinking, bathing, or other religious 
+                        practices.
+                    </p>
+
+                    <p>
+                        Bermel Giorgis welcomes individuals of all faiths, including non-believers, to partake in 
+                        its baptism ceremonies. The only requirement is the segregation of men and women into 
+                        separate groups. However, other distinctions, such as physical ability, age, or belief, 
+                        are not enforced. Everyone—from the paralyzed to children to skeptics—is baptized together.
+                    </p>
+
+                    <p>
                         Many visitors share that they encountered various obstacles when planning their journey to 
                         Bermel Giorgis. Challenges like financial setbacks, unexpected illnesses in the family, 
                         misplaced tickets, or missed flights were common. However, they also testify to Saint 
@@ -26,13 +43,6 @@ export default function About() {
                             Contact
                         </Link>{" "}
                         page.
-                    </p>
-
-                    <p>
-                        Bermel Giorgis welcomes individuals of all faiths, including non-believers, to partake in 
-                        its baptism ceremonies. The only requirement is the segregation of men and women into 
-                        separate groups. However, other distinctions, such as physical ability, age, or belief, 
-                        are not enforced. Everyone—from the paralyzed to children to skeptics—is baptized together.
                     </p>
 
                     <p>
