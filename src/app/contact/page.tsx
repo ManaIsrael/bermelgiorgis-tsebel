@@ -62,7 +62,7 @@ export default function Contact() {
           </p>
           <Image
             className="my-4"
-            src="/sebuha.png"
+            src="/sebuha.PNG"
             alt="Emahus logo"
             width={150}
             height={150}
