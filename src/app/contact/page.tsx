@@ -18,7 +18,7 @@ export default function Contact() {
           </p>
           <Image
             className="my-4"
-            src="/elshaday.png"
+            src="/elshaday.PNG"
             alt="Elshaday logo"
             width={150}
             height={150}
@@ -38,7 +38,7 @@ export default function Contact() {
           </p>
           <Image
             className="my-4"
-            src="/terbinos.png"
+            src="/terbinos.PNG"
             alt="Terbinos logo"
             width={150}
             height={150}
