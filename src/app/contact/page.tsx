@@ -96,7 +96,7 @@ export default function Contact() {
               <Link href="/" className="underline font-bold">Return to Home</Link>
             </li>
             <li>
-              <Link href="/map" className="underline font-bold">View Location Map</Link>
+              <Link href="/map" className="underline font-bold">View Location</Link>
             </li>
           </ul>
         </div>

@@ -70,11 +70,9 @@ export default function FAQ() {
             What makes Bermel Giorgis unique?
           </summary>
           <p className="mt-2">
-            Unlike other holy waters, Bermel Giorgis provides profound
-            revelations to everyone, regardless of faith or background. It&apos;s
-            known for its miraculous healing powers and its connection to Saint
-            George, who protects visitors and guides them on their spiritual
-            journey.
+            Bermel Giorgis provides profound revelations to everyone, regardless of faith or 
+            background. It&apos;s known for its miraculous healing powers and its connection to 
+            Saint George, who protects visitors and guides them on their spiritual journey.
           </p>
         </details>
 
