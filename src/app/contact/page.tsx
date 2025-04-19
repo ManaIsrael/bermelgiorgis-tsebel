@@ -77,7 +77,7 @@ export default function Contact() {
         </section>
 
         <p>
-          If you&apos;re looking for additional options, consider Mominas Travel Association or Mahbere Sador Orthodox Travel Association for affordable services.
+          If you&apos;re looking for additional options, consider Mahbere Sador Orthodox Travel Association for affordable services.
         </p>
 
         <section>
