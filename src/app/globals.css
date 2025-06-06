@@ -61,6 +61,8 @@ header{
     align-items: center;
     justify-content: space-around;
     padding: 1rem;
+
+    background-color: rgba(0,0,0,0.4);
 }
 header nav {
     width: 24rem;

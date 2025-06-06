@@ -5,7 +5,17 @@ export default function Home() {
   return (
     <div className="min-h-screen p-8 sm:p-20 font-sans">
       <main className="flex flex-col gap-8 sm:items-start">
-        <section id="hero" className="bg-gray-800">
+        <section id="hero">
+          <video
+            loop
+            muted
+            autoPlay
+            preload="auto"
+            aria-label="A muted background video showcasing a baptism site in Ethiopia."
+          >
+            <source src="bermel.mp4" type="video/mp4" />
+            Your browser does not support this video.
+          </video>
           <div className="caption text-center mt-6">
             <h1 className="text-2xl sm:text-3xl font-bold">
               Welcome to Bermel Giorgis
@@ -30,8 +40,10 @@ export default function Home() {
               A Journey to Faith and Healing
             </h2>
             <p className="mt-2">
-              Bermel Giorgis, meaning &quot;Barrel George&quot; in English, is a revered
-              holy site named after Saint George. The miraculous holy water
+              Bermel Giorgis (meaning Barrel George) is a revered holy site in Ethiopia, 
+              known for its mystical waters that offer spiritual healing and glimpses 
+              of divine realms. It is deeply connected to Saint George and serves as a 
+              place for profound transformation and revelation. The miraculous holy water
               flows from a natural spring surrounded by a unique barrel-like
               structure. Visitors from all walks of life come to seek healing,
               spiritual clarity, and divine experiences.
@@ -60,7 +72,8 @@ export default function Home() {
             </ul>
             <Link
               href="/faq"
-              className="text-white font-bold bg-gray-600 py-2 px-4 rounded mt-4 block"
+              style={{"backgroundColor": "rgba(0,0,0,0.4)"}}
+              className="text-white font-bold py-2 px-4 rounded mt-4 block"
             >
               Learn More in the Frequently Asked Question Section
             </Link>

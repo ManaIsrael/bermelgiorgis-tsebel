@@ -4,6 +4,7 @@ export default function About() {
     return(
         <div className="min-h-screen p-8 sm:p-20 font-sans">
             <main className="flex flex-col gap-8 mt-10 sm:items-start">
+                <h2>About</h2>
                 <section>
                     <p>
                         Bermel Giorgis is a revered holy site in Ethiopia known for its sacred 

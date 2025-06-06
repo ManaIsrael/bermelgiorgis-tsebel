@@ -57,7 +57,7 @@ export default function Footer() {
         </ul>
       </nav>
 
-      <nav aria-label="Developer resources">
+      {/* <nav aria-label="Developer resources">
         <p className="text-sm text-center max-w-md">
           Have suggestions for improving this website or looking to learn about
           web development and other tech skills? Visit my site at{" "}
@@ -71,7 +71,7 @@ export default function Footer() {
           </a>
           .
         </p>
-      </nav>
+      </nav> */}
 
       <p className="text-xs text-gray-400">
         &copy; 2025 Bermel Giorgis. Built with care and dedication.
