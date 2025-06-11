@@ -1,9 +1,17 @@
-import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+'use client';  // Important: Mark this file as a client component
+
+import dynamic from 'next/dynamic';
+import Image from 'next/image'
+
+// Dynamically import Swiper with SSR disabled
+const Swiper = dynamic(() => import('swiper/react').then(mod => mod.Swiper), { ssr: false });
+const SwiperSlide = dynamic(() => import('swiper/react').then(mod => mod.SwiperSlide), { ssr: false });
+
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 type CarouselImage = {
   src: string;
@@ -39,5 +47,6 @@ const CarouselComponent = ({ images }: CarouselComponentProps) => (
     ))}
   </Swiper>
 );
+
 
 export default CarouselComponent;
