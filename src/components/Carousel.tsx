@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -14,27 +14,30 @@ type CarouselComponentProps = {
   images: CarouselImage[];
 };
 
-const CarouselComponent: React.FC<CarouselComponentProps> = ({ images }) => {
-  return (
-    <Swiper
-      modules={[Navigation, Pagination, Autoplay]}
-      navigation
-      pagination={{ clickable: true }}
-      autoplay={{ delay: 3000 }}
-      loop
-      className="mySwiper"
-    >
-      {images.map((image, index) => (
-        <SwiperSlide key={index}>
-          <img
+const CarouselComponent = ({ images }: CarouselComponentProps) => (
+  <Swiper
+    modules={[Navigation, Pagination, Autoplay]}
+    navigation
+    pagination={{ clickable: true }}
+    autoplay={{ delay: 3000 }}
+    loop
+    className="mySwiper"
+  >
+    {images.map((image, index) => (
+      <SwiperSlide key={index}>
+        <div className="w-full h-auto relative">
+          <Image
             src={image.src}
             alt={image.alt}
-            className="w-full h-auto object-cover"
+            layout="responsive"
+            width={400}
+            height={400}
+            className="object-cover"
           />
-        </SwiperSlide>
-      ))}
-    </Swiper>
-  );
-};
+        </div>
+      </SwiperSlide>
+    ))}
+  </Swiper>
+);
 
 export default CarouselComponent;

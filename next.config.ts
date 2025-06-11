@@ -20,6 +20,15 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "drive.google.com", // Google Drive hostname
+        pathname: "/uc", // Direct file serving path
+      },
+    ],
+  },
 };
 
 export default nextConfig;
