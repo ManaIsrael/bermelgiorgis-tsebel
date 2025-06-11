@@ -1,12 +1,11 @@
-'use client';  // Important: Mark this file as a client component
+'use client';
 
 import dynamic from 'next/dynamic';
-import Image from 'next/image'
+import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
-// Dynamically import Swiper with SSR disabled
-const Swiper = dynamic(() => import('swiper/react').then(mod => mod.Swiper), { ssr: false });
-const SwiperSlide = dynamic(() => import('swiper/react').then(mod => mod.SwiperSlide), { ssr: false });
-
+const Swiper = dynamic(() => import('swiper/react').then((mod) => mod.Swiper), { ssr: false });
+const SwiperSlide = dynamic(() => import('swiper/react').then((mod) => mod.SwiperSlide), { ssr: false });
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import 'swiper/css';
@@ -22,31 +21,40 @@ type CarouselComponentProps = {
   images: CarouselImage[];
 };
 
-const CarouselComponent = ({ images }: CarouselComponentProps) => (
-  <Swiper
-    modules={[Navigation, Pagination, Autoplay]}
-    navigation
-    pagination={{ clickable: true }}
-    autoplay={{ delay: 3000 }}
-    loop
-    className="mySwiper"
-  >
-    {images.map((image, index) => (
-      <SwiperSlide key={index}>
-        <div className="w-full h-auto relative">
-          <Image
-            src={image.src}
-            alt={image.alt}
-            layout="responsive"
-            width={400}
-            height={400}
-            className="object-cover"
-          />
-        </div>
-      </SwiperSlide>
-    ))}
-  </Swiper>
-);
+const CarouselComponent = ({ images }: CarouselComponentProps) => {
+  const [isClient, setIsClient] = useState(false);
 
+  useEffect(() => {
+    setIsClient(true); // Ensures Swiper renders only on the client side
+  }, []);
+
+  if (!isClient) return null; // Avoid SSR-related errors
+
+  return (
+    <Swiper
+      modules={[Navigation, Pagination, Autoplay]}
+      navigation
+      pagination={{ clickable: true }}
+      autoplay={{ delay: 3000 }}
+      loop
+      className="mySwiper"
+    >
+      {images.map((image, index) => (
+        <SwiperSlide key={index}>
+          <div className="w-full h-auto relative">
+            <Image
+              src={image.src}
+              alt={image.alt}
+              layout="responsive"
+              width={400}
+              height={400}
+              className="object-cover"
+            />
+          </div>
+        </SwiperSlide>
+      ))}
+    </Swiper>
+  );
+};
 
 export default CarouselComponent;
