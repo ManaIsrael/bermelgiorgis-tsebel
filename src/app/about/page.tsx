@@ -8,7 +8,7 @@ export default function About() {
                 <section>
                     <p>
                         Bermel Giorgis is a revered holy site in Ethiopia known for its sacred 
-                        water, or &quot;tsebel,&quot; which is believed to possess healing and spiritual 
+                        water, or &quot;tsebel,&quot; which possess healing and spiritual 
                         properties. Located in the Quara district near the Ethiopia-Sudan border, 
                         this site attracts pilgrims seeking physical and spiritual healing 
                         through rituals involving the holy water. Visitors often collect the 
