@@ -140,10 +140,7 @@ export default function Home() {
       src: "https://drive.google.com/thumbnail?id=1yh44OD5t5oyXZ3fGiJ2FTZKwju9NYhKu",
       alt: "Sample snapshot of a witness 34",
     },
-    {
-      src: "https://drive.google.com/thumbnail?id=1J0Yttp7CKKsXptDWUTPsroWVZX_RnZo_",
-      alt: "Sample snapshot of a witness 35",
-    },
+
     {
       src: "https://drive.google.com/thumbnail?id=1CmIj6yLUxH7QK-F0UUV2J0kthWtUXM9v",
       alt: "Sample snapshot of a witness 36",
