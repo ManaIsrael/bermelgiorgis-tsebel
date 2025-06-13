@@ -25,7 +25,7 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "drive.google.com", // Google Drive hostname
-        pathname: "/uc", // Direct file serving path
+        pathname: "/thumbnail", // Direct file serving path
       },
     ],
   },
