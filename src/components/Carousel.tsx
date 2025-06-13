@@ -29,7 +29,6 @@ const CarouselComponent = ({ images }: CarouselComponentProps) => {
   }, []);
 
   if (!isClient) return null; // Avoid SSR-related errors
-console.log(images);
 
   return (
     <Swiper
