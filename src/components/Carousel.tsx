@@ -33,11 +33,11 @@ console.log(images);
 
   return (
     <Swiper
+      loop={images.length > 1} // Enable loop only if enough slides
       modules={[Navigation, Pagination, Autoplay]}
       navigation
       pagination={{ clickable: true }}
-      autoplay={{ delay: 3000 }}
-      loop
+      autoplay={images.length > 1 ? { delay: 3000 } : false} // Enable autoplay only if loop is functional
       className="mySwiper"
     >
       {images.map((image, index) => (
