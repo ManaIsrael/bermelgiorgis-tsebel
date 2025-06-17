@@ -5,7 +5,7 @@ import { useEffect } from "react";
 export default function TidioScript() {
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = "//code.tidio.co/your-unique-id.js"; // Replace with your unique Tidio script URL
+    script.src = "//code.tidio.co/birktvauoepafzhhqrocwl7alcwd0xq9.js";
     script.async = true;
     document.body.appendChild(script);
 
