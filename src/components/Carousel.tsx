@@ -65,14 +65,15 @@ const CarouselComponent = ({ images }: CarouselComponentProps) => {
     >
       {images.map((image, index) => (
         <SwiperSlide key={index}>
-          <div className="w-full h-auto relative" style={{ paddingBottom: '56.25%' }}>
+          <div className="w-full h-auto">
             <Image
               src={image.src}
               alt={image.alt}
-              layout="responsive"
-              width={400}
-              height={400}
-              className="object-cover"
+              width={750}
+              height={500}
+              loading="lazy"
+              // layout="responsive"
+              // className="object-cover"
             />
           </div>
         </SwiperSlide>

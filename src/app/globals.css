@@ -156,3 +156,12 @@ header a:hover{
 details{
     line-height: 30px;
 }
+
+.swiper-wrapper {
+  display: flex; /* Ensure horizontal layout */
+}
+
+.swiper-slide {
+  flex: 0 0 auto; /* Prevent slides from shrinking or growing */
+  width: 100%; /* Optional: Set slide width */
+}
