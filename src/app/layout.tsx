@@ -69,8 +69,8 @@ export default function RootLayout({
       >
         <Header />
         <main aria-label="Main content" className="container mx-auto py-8 px-4 sm:px-8">{children}</main>
-        <TidioScript />
         <Footer />
+        <TidioScript />
       </body>
     </html>
   );
