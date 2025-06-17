@@ -21,7 +21,7 @@ const nextConfig: NextConfig = {
     ];
   },
   images: {
-    domains: ['i.imgur.com'], // Google Drive hostname
+    domains: ['i.imgur.com'],
   },
 };
 

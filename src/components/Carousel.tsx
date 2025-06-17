@@ -31,29 +31,35 @@ const CarouselComponent = ({ images }: CarouselComponentProps) => {
   if (!isClient) return null; // Avoid SSR-related errors
 
   return (
-    <Swiper
-      loop={images.length > 1} // Enable loop only if enough slides
-      modules={[Navigation, Pagination, Autoplay]}
-      navigation
-      pagination={{ clickable: true }}
-      autoplay={images.length > 1 ? { delay: 3000 } : false} // Enable autoplay only if loop is functional
-      className="mySwiper"
-    >
-      {images.map((image, index) => (
-        <SwiperSlide key={index}>
-          <div className="w-full h-auto relative">
-            <Image
-              src={image.src}
-              alt={image.alt}
-              layout="responsive"
-              width={400}
-              height={400}
-              className="object-cover"
-            />
-          </div>
-        </SwiperSlide>
-      ))}
-    </Swiper>
+    // <Swiper
+    //   loop={images.length > 1} // Enable loop only if enough slides
+    //   modules={[Navigation, Pagination, Autoplay]}
+    //   navigation
+    //   pagination={{ clickable: true }}
+    //   autoplay={images.length > 1 ? { delay: 3000 } : false} // Enable autoplay only if loop is functional
+    //   className="mySwiper"
+    // >
+    //   {images.map((image, index) => (
+    //     <SwiperSlide key={index}>
+    //       <div className="w-full h-auto relative" style={{ paddingBottom: '56.25%' }}>
+    //         <Image
+    //           src={image.src}
+    //           alt={image.alt}
+    //           layout="responsive"
+    //           width={400}
+    //           height={400}
+    //           className="object-cover"
+    //         />
+    //       </div>
+    //     </SwiperSlide>
+    //   ))}
+    // </Swiper>
+    <div>{images.map((image, index) => (
+      <div key={index} className="carousel-slide">
+        <img src={image.src} alt={image.alt} style={{ width: '100%', height: 'auto' }} />
+      </div>
+    ))}
+</div>
   );
 };
 
