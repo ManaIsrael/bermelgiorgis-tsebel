@@ -63,6 +63,7 @@ const CarouselComponent = ({ images }: CarouselComponentProps) => {
       loop // Enables continuous loop mode
       spaceBetween={10} // Space between slides in pixels
       slidesPerView={1} // Number of slides visible at once
+      className="mySwiper"
     >
       {images.map((image, index) => (
         <SwiperSlide key={index}>
