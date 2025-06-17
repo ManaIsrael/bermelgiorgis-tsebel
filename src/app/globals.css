@@ -156,20 +156,3 @@ header a:hover{
 details{
     line-height: 30px;
 }
-
-.mySwiper {
-  width: 100%;
-  height: auto;
-}
-
-.mySwiper img {
-  width: 100%; /* Ensures the image spans the full width of the slider */
-  height: auto; /* Maintains the image's aspect ratio */
-  object-fit: cover; /* Ensures the image fits nicely within its container */
-}
-
-/* .swiper-slide {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-} */

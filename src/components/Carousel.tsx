@@ -5,7 +5,7 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import dynamic from 'next/dynamic';
 import { useEffect, useState } from 'react';
-// import Image from 'next/image';
+import Image from 'next/image';
 
 const Swiper = dynamic(() => import('swiper/react').then((mod) => mod.Swiper), { ssr: false });
 const SwiperSlide = dynamic(() => import('swiper/react').then((mod) => mod.SwiperSlide), { ssr: false });
@@ -56,17 +56,25 @@ const CarouselComponent = ({ images }: CarouselComponentProps) => {
 
     <Swiper
       modules={[Navigation, Pagination, Autoplay]}
-      navigation // Enables navigation buttons
-      pagination={{ clickable: true }} // Enables pagination dots
-      autoplay={{ delay: 3000 }} // Enables autoplay with a 3-second delay
-      loop // Enables continuous loop mode
-      spaceBetween={10} // Space between slides in pixels
-      slidesPerView={1} // Number of slides visible at once
-      style={{ width: '600px', height: '400px' }}
+      navigation
+      pagination={{ clickable: true }}
+      autoplay={{ delay: 3000 }}
+      loop
+      spaceBetween={10}
+      slidesPerView={1}
     >
       {images.map((image, index) => (
         <SwiperSlide key={index}>
-          <img src={image.src} alt={image.alt} style={{ width: '100%', height: 'auto' }} />
+          <div className="w-full h-auto relative" style={{ paddingBottom: '56.25%' }}>
+            <Image
+              src={image.src}
+              alt={image.alt}
+              layout="responsive"
+              width={400}
+              height={400}
+              className="object-cover"
+            />
+          </div>
         </SwiperSlide>
       ))}
     </Swiper>
