@@ -167,3 +167,6 @@ details{
   height: auto; /* Maintains the image's aspect ratio */
   object-fit: cover; /* Ensures the image fits nicely within its container */
 }
+.swiper-wrapper{
+    height: 600px;
+}
