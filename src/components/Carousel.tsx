@@ -1,12 +1,12 @@
 'use client';
 
-import dynamic from 'next/dynamic';
+// import dynamic from 'next/dynamic';
 import { useEffect, useState } from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
 
-const Swiper = dynamic(() => import('swiper/react').then((mod) => mod.Swiper), { ssr: false });
-const SwiperSlide = dynamic(() => import('swiper/react').then((mod) => mod.SwiperSlide), { ssr: false });
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+// const Swiper = dynamic(() => import('swiper/react').then((mod) => mod.Swiper), { ssr: false });
+// const SwiperSlide = dynamic(() => import('swiper/react').then((mod) => mod.SwiperSlide), { ssr: false });
+// import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -54,12 +54,13 @@ const CarouselComponent = ({ images }: CarouselComponentProps) => {
     //     </SwiperSlide>
     //   ))}
     // </Swiper>
-    <div>{images.map((image, index) => (
-      <div key={index} className="carousel-slide">
-        <img src={image.src} alt={image.alt} style={{ width: '100%', height: 'auto' }} />
-      </div>
-    ))}
-</div>
+    <div>
+      {images.map((image, index) => (
+        <div key={index} className="carousel-slide">
+          <img src={image.src} alt={image.alt} style={{ width: '100%', height: 'auto' }} />
+        </div>
+      ))}
+    </div>
   );
 };
 
