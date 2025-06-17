@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
 
 const Swiper = dynamic(() => import('swiper/react').then((mod) => mod.Swiper), { ssr: false });
 const SwiperSlide = dynamic(() => import('swiper/react').then((mod) => mod.SwiperSlide), { ssr: false });
-// import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 
 
@@ -54,7 +54,16 @@ const CarouselComponent = ({ images }: CarouselComponentProps) => {
     //     </SwiperSlide>
     //   ))}
     // </Swiper>
-    <Swiper>
+
+    <Swiper
+      modules={[Navigation, Pagination, Autoplay]}
+      navigation // Enables navigation buttons
+      pagination={{ clickable: true }} // Enables pagination dots
+      autoplay={{ delay: 3000 }} // Enables autoplay with a 3-second delay
+      loop // Enables continuous loop mode
+      spaceBetween={10} // Space between slides in pixels
+      slidesPerView={1} // Number of slides visible at once
+    >
       {images.map((image, index) => (
         <SwiperSlide key={index}>
           <img src={image.src} alt={image.alt} style={{ width: '100%', height: 'auto' }} />
