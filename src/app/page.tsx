@@ -189,185 +189,185 @@ export default function Home() {
 
   const carouselImages = [
     {
-      src: "https://imgur.com/a923hIN",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/a923hIN.png",
+      alt: "Sample snapshot of a witness 1",
     },
     {
-      src: "https://imgur.com/lA0Pc5E",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/lA0Pc5E.png",
+      alt: "Sample snapshot of a witness 2",
     },
     {
-      src: "https://imgur.com/deRdjhm",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/deRdjhm.png",
+      alt: "Sample snapshot of a witness 3",
     },
     {
-      src: "https://imgur.com/x3Rix74",
-      alt: "Sample snapshot of a witness",
-    },
-
-    {
-      src: "https://imgur.com/QxBKU1O",
-      alt: "Sample snapshot of a witness",
-    },
-    {
-      src: "https://imgur.com/QcKKOpo",
-      alt: "Sample snapshot of a witness",
-    },
-    {
-      src: "https://imgur.com/rMs1zmJ",
-      alt: "Sample snapshot of a witness",
-    },
-    {
-      src: "https://imgur.com/85rBq6n",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/x3Rix74.png",
+      alt: "Sample snapshot of a witness 4",
     },
 
     {
-      src: "https://imgur.com/T3c3WLg",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/QcKKOpo.png",
+      alt: "Sample snapshot of a witness 5",
     },
     {
-      src: "https://imgur.com/xCekCsa",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/QxBKU1O.png",
+      alt: "Sample snapshot of a witness 6",
     },
     {
-      src: "https://imgur.com/FtgVRnS",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/rMs1zmJ.png",
+      alt: "Sample snapshot of a witness 7",
     },
     {
-      src: "https://imgur.com/V2zHIC8",
-      alt: "Sample snapshot of a witness",
-    },
-
-    {
-      src: "https://imgur.com/wQCGnWt",
-      alt: "Sample snapshot of a witness",
-    },
-    {
-      src: "https://imgur.com/SuHCfWj",
-      alt: "Sample snapshot of a witness",
-    },
-    {
-      src: "https://imgur.com/e2STb0c",
-      alt: "Sample snapshot of a witness",
-    },
-    {
-      src: "https://imgur.com/4VFwUwR",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/85rBq6n.png",
+      alt: "Sample snapshot of a witness 8",
     },
 
     {
-      src: "https://imgur.com/7C342vt",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/T3c3WLg.png",
+      alt: "Sample snapshot of a witness 9",
     },
     {
-      src: "https://imgur.com/liwaVdl",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/xCekCsa.png",
+      alt: "Sample snapshot of a witness 10",
     },
     {
-      src: "https://imgur.com/49ovyr5",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/FtgVRnS.png",
+      alt: "Sample snapshot of a witness 11",
     },
     {
-      src: "https://imgur.com/ryUSzDp",
-      alt: "Sample snapshot of a witness",
-    },
-
-    {
-      src: "https://imgur.com/3z0eaVH",
-      alt: "Sample snapshot of a witness",
-    },
-    {
-      src: "https://imgur.com/kkE6zto",
-      alt: "Sample snapshot of a witness",
-    },
-    {
-      src: "https://imgur.com/O2xKjHX",
-      alt: "Sample snapshot of a witness",
-    },
-    {
-      src: "https://imgur.com/BrPGAgD",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/V2zHIC8.png",
+      alt: "Sample snapshot of a witness 12",
     },
 
     {
-      src: "https://imgur.com/XtQ4Y0X",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/wQCGnWt.png",
+      alt: "Sample snapshot of a witness 13",
     },
     {
-      src: "https://imgur.com/q2pqWYK",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/SuHCfWj.png",
+      alt: "Sample snapshot of a witness 14",
     },
     {
-      src: "https://imgur.com/n9PaRJN",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/e2STb0c.png",
+      alt: "Sample snapshot of a witness 15",
     },
     {
-      src: "https://imgur.com/sPozGrj",
-      alt: "Sample snapshot of a witness",
-    },
-
-    {
-      src: "https://imgur.com/midSI4K",
-      alt: "Sample snapshot of a witness",
-    },
-    {
-      src: "https://imgur.com/ULVAren",
-      alt: "Sample snapshot of a witness",
-    },
-    {
-      src: "https://imgur.com/LfX19DC",
-      alt: "Sample snapshot of a witness",
-    },
-    {
-      src: "https://imgur.com/SbJag4K",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/4VFwUwR.png",
+      alt: "Sample snapshot of a witness 16",
     },
 
     {
-      src: "https://imgur.com/Ze9A3BC",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/7C342vt.png",
+      alt: "Sample snapshot of a witness 17",
     },
     {
-      src: "https://imgur.com/8C0kgGJ",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/liwaVdl.png",
+      alt: "Sample snapshot of a witness 18",
     },
     {
-      src: "https://imgur.com/ybLfZ68",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/49ovyr5.png",
+      alt: "Sample snapshot of a witness 19",
     },
     {
-      src: "https://imgur.com/NeBO0do",
-      alt: "Sample snapshot of a witness",
-    },
-
-    {
-      src: "https://imgur.com/ejOaTE1",
-      alt: "Sample snapshot of a witness",
-    },
-    {
-      src: "https://imgur.com/TAYKUx7",
-      alt: "Sample snapshot of a witness",
-    },
-    {
-      src: "https://imgur.com/VDJNkvv",
-      alt: "Sample snapshot of a witness",
-    },
-    {
-      src: "https://imgur.com/9zKboPq",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/ryUSzDp.png",
+      alt: "Sample snapshot of a witness 20",
     },
 
     {
-      src: "https://imgur.com/2G6d44A",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/3z0eaVH.png",
+      alt: "Sample snapshot of a witness 21",
     },
     {
-      src: "https://imgur.com/RLc5woZ",
-      alt: "Sample snapshot of a witness",
+      src: "https://i.imgur.com/kkE6zto.png",
+      alt: "Sample snapshot of a witness 22",
     },
     {
-      src: "https://imgur.com/IjwfCru",
+      src: "https://i.imgur.com/O2xKjHX.png",
+      alt: "Sample snapshot of a witness 23",
+    },
+    {
+      src: "https://i.imgur.com/M5ftQ1O.png",
+      alt: "Sample snapshot of a witness 24",
+    },
+
+    {
+      src: "https://i.imgur.com/XtQ4Y0X.png",
+      alt: "Sample snapshot of a witness 25",
+    },
+    {
+      src: "https://i.imgur.com/q2pqWYK.png",
+      alt: "Sample snapshot of a witness 26",
+    },
+    {
+      src: "https://i.imgur.com/n9PaRJN.png",
+      alt: "Sample snapshot of a witness 27",
+    },
+    {
+      src: "https://i.imgur.com/sPozGrj.png",
+      alt: "Sample snapshot of a witness 28",
+    },
+
+    {
+      src: "https://i.imgur.com/midSI4K.png",
+      alt: "Sample snapshot of a witness 29",
+    },
+    {
+      src: "https://i.imgur.com/ULVAren.png",
+      alt: "Sample snapshot of a witness 30",
+    },
+    {
+      src: "https://i.imgur.com/LfX19DC.png",
+      alt: "Sample snapshot of a witness 31",
+    },
+    {
+      src: "https://i.imgur.com/SbJag4K.png",
+      alt: "Sample snapshot of a witness 32",
+    },
+
+    {
+      src: "https://i.imgur.com/Ze9A3BC.png",
+      alt: "Sample snapshot of a witness 33",
+    },
+    {
+      src: "https://i.imgur.com/8C0kgGJ.png",
+      alt: "Sample snapshot of a witness 34",
+    },
+    {
+      src: "https://i.imgur.com/ybLfZ68.png",
+      alt: "Sample snapshot of a witness 35",
+    },
+    {
+      src: "https://i.imgur.com/NeBO0do.png",
+      alt: "Sample snapshot of a witness 36",
+    },
+
+    {
+      src: "https://i.imgur.com/ejOaTE1.png",
+      alt: "Sample snapshot of a witness 37",
+    },
+    {
+      src: "https://i.imgur.com/TAYKUx7.jpeg",
+      alt: "Sample snapshot of a witness 38",
+    },
+    {
+      src: "https://i.imgur.com/VDJNkvv.png",
+      alt: "Sample snapshot of a witness 39",
+    },
+    {
+      src: "https://i.imgur.com/9zKboPq.png",
+      alt: "Sample snapshot of a witness 40",
+    },
+
+    {
+      src: "https://i.imgur.com/2G6d44A.png",
+      alt: "Sample snapshot of a witness 41",
+    },
+    {
+      src: "https://i.imgur.com/RLc5woZ.png",
+      alt: "Sample snapshot of a witness 42",
+    },
+    {
+      src: "https://i.imgur.com/IjwfCru.png",
       alt: "Sample snapshot of a witness through phone",
     },
   ];
