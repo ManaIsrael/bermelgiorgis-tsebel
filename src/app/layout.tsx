@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import TidioScript from "@/components/TidioScript";
+import Script from 'next/script';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -70,7 +70,7 @@ export default function RootLayout({
         <Header />
         <main aria-label="Main content" className="container mx-auto py-8 px-4 sm:px-8">{children}</main>
         <Footer />
-        <TidioScript />
+        <Script src="//code.tidio.co/birktvauoepafzhhqrocwl7alcwd0xq9.js" strategy="afterInteractive" async />
       </body>
     </html>
   );
