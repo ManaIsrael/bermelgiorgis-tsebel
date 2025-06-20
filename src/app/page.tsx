@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import CarouselComponent from "../components/Carousel";
 
+
+
 export default function Home() {
   // const carouselImages = [
   //   {

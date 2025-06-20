@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import 'keen-slider/keen-slider.min.css'; */
 
 *{
     margin: 0;
@@ -157,11 +158,23 @@ details{
     line-height: 30px;
 }
 
-.swiper-wrapper {
-  display: flex; /* Ensure horizontal layout */
+.keen-slider {
+    
+    display: flex;
+  width: 100%;
+  height: auto;
+  position: relative;
 }
 
-.swiper-slide {
-  flex: 0 0 auto; /* Prevent slides from shrinking or growing */
-  width: 100%; /* Optional: Set slide width */
+.keen-slider__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f0f0; /* Optional: For visual clarity */
+}
+
+@media (max-width: 768px) {
+  .keen-slider {
+    height: auto;
+  }
 }
