@@ -36,7 +36,7 @@ export default function CarouselComponent({ images }: CarouselComponentProps) {
     <div ref={sliderRef} className="keen-slider">
       {images.map((image, idx) => (
         <div className="keen-slider__slide" key={idx}>
-          <Image src={image.src} alt={image.alt} width={300} height={200} />
+          <Image src={image.src} alt={image.alt} width={600} height={400} />
         </div>
       ))}
     </div>

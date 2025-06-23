@@ -24,9 +24,9 @@
         4px 2px 0 #ffffff;
 }
   
-/* body {
-    font-family: Arial, Helvetica, sans-serif;
-} */
+body {
+    overflow: hidden;
+}
 
 h2{
     font-size: larger;
@@ -159,11 +159,11 @@ details{
 }
 
 .keen-slider {
-    
+    overflow: hidden;
     display: flex;
-  width: 100%;
-  height: auto;
-  position: relative;
+    width: 100%;
+    height: auto;
+    position: relative;
 }
 
 .keen-slider__slide {
