@@ -172,6 +172,7 @@ details{
   justify-content: center;
   align-items: center;
   background: #f0f0f0; /* Optional: For visual clarity */
+  width: 750px;
 }
 
 @media (max-width: 768px) {
