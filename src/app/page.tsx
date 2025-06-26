@@ -432,22 +432,29 @@ export default function Home() {
 
           <article>
             <h2 className="text-xl sm:text-2xl font-semibold">
-              Why Visit Bermel Giorgis?
+              Unique Qualities of the Holy Water
             </h2>
+            <p><strong>Inclusive for All:</strong> Unlike many other holy waters that require faith or belief in their power, Bermel Georgis is unique in its inclusivity. It welcomes everyone, regardless of their beliefs, and performs miracles for anyone baptized there.</p>
+            <p><strong>Answers Life's Questions:</strong> You can ask any question, whether to Saint George or other saints, before or during baptism. The answers come to you during the baptism, addressing even the deepest or long-held questions, including those you may not have thought to ask.</p>
+            <p><strong>Reveals Mysteries:</strong> The holy water unveils profound mysteries, including insights into heaven, hell, and other unknown realms. These revelations come to you, whether you actively seek them or not, providing a deeper understanding of life and the beyond.</p>
+            <p><strong>Intercession for the Departed:</strong> Bermel Giorgis may allow you to see or connect with loved ones who have passed away. If they are suffering in hell, a saint might guide you on actions to take in their name to help them find salvation.</p>
+            <h3>Why Visit The Site?</h3>
             <ul className="list-disc ml-5 mt-2">
-              <li>Experience profound spiritual revelations.</li>
-              <li>Seek healing and peace for body and mind.</li>
+              <li>To find answers to the most challenging questions in your life.</li>
+              <li>To prepare your soul for eternal life with God.</li>
               <li>
-                Witness the miraculous power of the holy water firsthand.
+                To see and converse with God and the saints, gaining glimpses of paradise or hell.
               </li>
-              <li>Reconnect with your faith and purpose.</li>
+              <li>To experience healing from physical, emotional, or spiritual ailments, or to seek healing for someone else.</li>
+              <li>To gain undeniable evidence of miracles that transcend the limits of science, even if you are a skeptic or atheist.</li>
+              <li>Rediscover your faith and find clarity in your life&apos;s purpose</li>
             </ul>
             <Link
-              href="/faq"
+              href="/about"
               style={{"backgroundColor": "rgba(0,0,0,0.4)"}}
               className="text-white font-bold py-2 px-4 rounded mt-4 block"
             >
-              Learn More in the Frequently Asked Question Section
+              Bermel Giorgis' Miracles
             </Link>
           </article>
 
@@ -470,6 +477,16 @@ export default function Home() {
               height={500}
               loading="lazy"
             />
+          </article>
+          
+          <article>
+            <h2>The Popularity</h2>
+            <p>The fame began to grow around 2019 when a few individuals started sharing videos of the holy water on YouTube, primarily in the Amharic language. These early videos, often titled with phrases like &quot;The holy water that shows hell,&qoot; initially attracted limited attention. However, the site gained widespread recognition when popular channels such as <em>Travel Ethiopia</em> featured videos about Bermel Giorgis, drawing in a significantly larger audience.</p>
+          </article>
+
+          <article>
+            <h2>The Foundation</h2>
+            <p>The origins of the site are deeply rooted in Ethiopian spirituality. On July 27, 2002 E.C. (March 2010 G.C.), the Ark of Saint George was brought to the Church of Mother Virgin Mary in Quara, the region now home to the holy site. Four years later, in 2006 E.C. (2014 G.C.), the holy water miraculously emerged during a government excavation project. The digging, intended to source water for agricultural purposes, instead uncovered this sacred site, marking the beginning of its spiritual significance.</p>
           </article>
         </section>
 

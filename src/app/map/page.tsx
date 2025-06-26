@@ -6,7 +6,7 @@ export default function Map() {
             <main className="flex flex-col gap-8 sm:items-start">
                 <h2>Map of Bermel Giorgis</h2>
                 <p>
-                    Bermel Giorgis is situated in the Qwara region, known for its warm climate 
+                    Bermel Giorgis is situated in the Qwara region, about 940 kilometers from Addis Ababa, known for its warm climate 
                     with summer temperatures often exceeding 36&deg;C. The area is surrounded 
                     by a small community of local villagers. For visitors and baptizands, 
                     nearby shelters offer comfortable amenities, including sleeping rooms, 
@@ -45,8 +45,7 @@ export default function Map() {
                     ></iframe>
                 </div>
 
-                <p>
-                    Bermel Georgis is located in the Qwara Desert in Ethiopia, about 940 kilometers from Addis Ababa. 
+                <p> 
                     The journey from Addis Ababa Bole International Airport to Bahir Dar via airplane takes around 
                     an hour. From Bahir Dar, travelers can take a bus to Bermel Georgis, a ride that typically lasts 
                     about 14 hours. Travel agencies such as Elshaday, Terbinos, and Emahus make the trip 
