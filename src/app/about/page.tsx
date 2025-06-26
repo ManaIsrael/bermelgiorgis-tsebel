@@ -69,7 +69,7 @@ export default function About() {
 
                     <h4>What to Expect During Baptism</h4>
                     <ul>
-                        <li>The holy water emerges every 30 minutes, bursting into the air in three rounds. Visitors often report sensing the aroma of incense or hearing the sound of Saint George's horse's hooves.</li>
+                        <li>The holy water emerges every 30 minutes, bursting into the air in three rounds. Visitors often report sensing the aroma of incense or hearing the sound of Saint George&apos;s horse&apos;s hooves.</li>
                         <li>During baptism, assistants may tie participants&apos; hands to ensure safety, as involuntary movements are common for some.</li>
                         <li>Baptisms are conducted in groups separated by gender, offering unique revelations each day.</li>
                     </ul>

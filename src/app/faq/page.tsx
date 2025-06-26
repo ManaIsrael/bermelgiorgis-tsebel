@@ -14,7 +14,7 @@ export default function FAQ() {
           </summary>
           <ul className="list-disc ml-5 mt-2">
             <li>
-              <strong>Answers for life:</strong> Gain profound insights into life's most challenging questions, leaving you with peace of mind.
+              <strong>Answers for life:</strong> Gain profound insights into life&apos;s most challenging questions, leaving you with peace of mind.
             </li>
             <li>
               <strong>A meaningful journey:</strong> Embark on a spiritual adventure filled with discovery and growth.

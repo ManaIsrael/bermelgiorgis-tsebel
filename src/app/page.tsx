@@ -435,7 +435,7 @@ export default function Home() {
               Unique Qualities of the Holy Water
             </h2>
             <p><strong>Inclusive for All:</strong> Unlike many other holy waters that require faith or belief in their power, Bermel Georgis is unique in its inclusivity. It welcomes everyone, regardless of their beliefs, and performs miracles for anyone baptized there.</p>
-            <p><strong>Answers Life's Questions:</strong> You can ask any question, whether to Saint George or other saints, before or during baptism. The answers come to you during the baptism, addressing even the deepest or long-held questions, including those you may not have thought to ask.</p>
+            <p><strong>Answers Life&apos;s Questions:</strong> You can ask any question, whether to Saint George or other saints, before or during baptism. The answers come to you during the baptism, addressing even the deepest or long-held questions, including those you may not have thought to ask.</p>
             <p><strong>Reveals Mysteries:</strong> The holy water unveils profound mysteries, including insights into heaven, hell, and other unknown realms. These revelations come to you, whether you actively seek them or not, providing a deeper understanding of life and the beyond.</p>
             <p><strong>Intercession for the Departed:</strong> Bermel Giorgis may allow you to see or connect with loved ones who have passed away. If they are suffering in hell, a saint might guide you on actions to take in their name to help them find salvation.</p>
             <h3>Why Visit The Site?</h3>
@@ -454,7 +454,7 @@ export default function Home() {
               style={{"backgroundColor": "rgba(0,0,0,0.4)"}}
               className="text-white font-bold py-2 px-4 rounded mt-4 block"
             >
-              Bermel Giorgis' Miracles
+              Bermel Giorgis&apos; Miracles
             </Link>
           </article>
 
