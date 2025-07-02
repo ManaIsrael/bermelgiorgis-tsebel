@@ -15,10 +15,10 @@ export default function CarouselComponent({ images }: CarouselComponentProps) {
     slides: { perView: 1, spacing: 10 },
     breakpoints: {
       "(min-width: 640px)": {
-        slides: { perView: 3, spacing: 15 },
+        slides: { perView: 1, spacing: 15 },
       },
       "(min-width: 1024px)": {
-        slides: { perView: 5, spacing: 20 },
+        slides: { perView: 3, spacing: 20 },
       },
     },
   });
