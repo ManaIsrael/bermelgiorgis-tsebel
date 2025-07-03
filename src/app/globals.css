@@ -161,7 +161,7 @@ details{
 .keen-slider {
     overflow: hidden;
     display: flex;
-    max-width: 750px;
+    max-width: 1000px;
     /* width: 100%; */
     height: auto;
     position: relative;
