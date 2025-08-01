@@ -477,7 +477,7 @@ export default function Home() {
               height={500}
               loading="lazy"
             />
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.1523896545773!2d35.745723574238994!3d12.390034887874435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x165eaf0018138d6b%3A0xcba7cbfe9da7ffaa!2sBermel%20Georgis!5e1!3m2!1sen!2set!4v1754078570955!5m2!1sen!2set" width="600" height="450" allowFullScreen loading="lazy" className="rounded-xl absolute top-0 left-0 w-full h-full"></iframe>
+           <div className="relative w-full h-96 overflow-hidden"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.1523896545773!2d35.745723574238994!3d12.390034887874435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x165eaf0018138d6b%3A0xcba7cbfe9da7ffaa!2sBermel%20Georgis!5e1!3m2!1sen!2set!4v1754078570955!5m2!1sen!2set" width="600" height="450" allowFullScreen loading="lazy" className="rounded-xl absolute top-0 left-0 w-full h-full"></iframe></div>
           </article>
           
           <article>
