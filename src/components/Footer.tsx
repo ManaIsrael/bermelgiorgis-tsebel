@@ -59,17 +59,7 @@ export default function Footer() {
 
       {/* <nav aria-label="Developer resources">
         <p className="text-sm text-center max-w-md">
-          Have suggestions for improving this website or looking to learn about
-          web development and other tech skills? Visit my site at{" "}
-          <a
-            href="https://ethiopia-free-time-academy.vercel.app/"
-            target="_blank"
-            aria-label="Navigate to Ethiopia Free Time Academy website"
-            className="text-blue-400 hover:text-blue-300"
-          >
-            Ethiopia Free Time Academy
-          </a>
-          .
+         Author: Betelhem Yemane - betelhemyemanezoom@gmail.com
         </p>
       </nav> */}
 
