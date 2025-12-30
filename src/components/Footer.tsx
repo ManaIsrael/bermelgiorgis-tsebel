@@ -57,11 +57,11 @@ export default function Footer() {
         </ul>
       </nav>
 
-      {/* <nav aria-label="Developer resources">
+      <nav aria-label="Developer resources">
         <p className="text-sm text-center max-w-md">
          Author: Betelhem Yemane - betelhemyemanezoom@gmail.com
         </p>
-      </nav> */}
+      </nav>
 
       <p className="text-xs text-gray-400">
         &copy; 2025 Bermel Giorgis. Built with care and dedication.
