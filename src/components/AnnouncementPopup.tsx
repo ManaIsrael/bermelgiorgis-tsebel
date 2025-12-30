@@ -62,7 +62,7 @@ export default function AnnouncementPopup() {
               <strong className="block mt-2">
                 ጥር 18 2018 ዓ.ም
               </strong>
-              (January 26, 2025)
+              (January 26, 2026)
               <br />
               ሁሉንም አማኞች ወደዚህ ቅዱስ ስፍራ ይጠራል።
             </p>
