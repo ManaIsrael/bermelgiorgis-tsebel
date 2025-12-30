@@ -60,7 +60,7 @@ export default function AnnouncementPopup() {
               <strong> ቅዱስ ጊዮርጊስ</strong> ዓመታዊ በዓል
               <br />
               <strong className="block mt-2">
-                ጥር 18 2017 ዓ.ም
+                ጥር 18 2018 ዓ.ም
               </strong>
               (January 26, 2025)
               <br />
@@ -81,7 +81,7 @@ export default function AnnouncementPopup() {
               believers to gather on
               <br />
               <strong className="block mt-2">
-                January 26, 2025
+                January 26, 2026
               </strong>
               for the annual feast of the
               <strong> Arch-Martyr Saint George</strong>.
