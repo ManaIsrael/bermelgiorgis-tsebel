@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import CarouselComponent from "../components/Carousel";
+import AnnouncementPopup from "../components/AnnouncementPopup";
 
 
 
@@ -376,6 +377,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen p-8 sm:p-20 font-sans">
+      <AnnouncementPopup />
       <main className="flex flex-col gap-8 sm:items-start">
         <section id="hero">
           <video
