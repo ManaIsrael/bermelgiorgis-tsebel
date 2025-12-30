@@ -48,16 +48,16 @@ export default function AnnouncementPopup() {
         {lang === "am" ? (
           <>
             <h2 className="text-xl sm:text-2xl font-bold text-center mb-4">
-              ✨ የበርመል ጊዮርጊስ ጉዞ እንደገና ተጀምሯል ✨
+              ✨ የበርሜል ቅዱስ ጊዮርጊስ ጉዞ እንደገና ተጀምሯል ✨
             </h2>
 
             <p className="text-gray-700 text-center leading-relaxed">
               ለ<strong>8 ወራት</strong> የቆመው ወደ
-              <strong> ቅዱስ ቦታ በርመል ጊዮርጊስ</strong> ጉዞ
+              <strong> ቅዱስ ቦታ በርሜል ጊዮርጊስ</strong> ጉዞ
               እንደገና ተጀምሯል።
               <br /><br />
-              የ<strong>በርመል ጊዮርጊስ ቤተክርስቲያን</strong> በ
-              <strong> የአርከማርቲር ቅዱስ ጊዮርጊስ</strong> ዓመታዊ በዓል
+              የ<strong>በርሜል ጊዮርጊስ ቤተክርስቲያን</strong> በ
+              <strong> ቅዱስ ጊዮርጊስ</strong> ዓመታዊ በዓል
               <br />
               <strong className="block mt-2">
                 ጥር 18 2017 ዓ.ም
