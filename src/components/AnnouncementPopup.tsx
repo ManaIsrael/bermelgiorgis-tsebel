@@ -38,7 +38,7 @@ export default function AnnouncementPopup() {
         <div className="flex justify-end mb-2">
           <button
             onClick={() => setLang(lang === "am" ? "en" : "am")}
-            className="text-sm underline text-gray-600"
+            className="text-sm underline text-red-600"
           >
             {lang === "am" ? "English" : "አማርኛ"}
           </button>
