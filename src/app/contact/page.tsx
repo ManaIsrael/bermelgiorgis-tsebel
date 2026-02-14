@@ -88,6 +88,9 @@ export default function Contact() {
           <ul className="space-y-2">
             <li><a href="tel:+2510911734304" className="text-green-700 hover:text-green-900">+251 0911 73 43 04</a></li>
           </ul>
+          <p>
+            <b>UPDATE*</b>: The church is rebuilt and the celebration of the rebuilt was celebrated on January 26, 2026, together with the annual Feast of The ArchMartyr Saint Jeorge.
+          </p>
         </section>
 
         <div className="mt-8">
