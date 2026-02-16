@@ -484,7 +484,7 @@ export default function Home() {
           
           <article>
             <h2>The Popularity</h2>
-            <p>The fame began to grow around 2019 when a few individuals started sharing videos of the holy water on YouTube, primarily in the Amharic language. These early videos, often titled with phrases like &quot;The holy water that shows hell,&qoot; initially attracted limited attention. However, the site gained widespread recognition when popular channels such as <em>Travel Ethiopia</em> featured videos about Bermel Giorgis, drawing in a significantly larger audience.</p>
+            <p>The fame began to grow around 2019 when a few individuals started sharing videos of the holy water on YouTube, primarily in the Amharic language. These early videos, often titled with phrases like &quot;The holy water that shows hell,&quot; initially attracted limited attention. However, the site gained widespread recognition when popular channels such as <em>Travel Ethiopia</em> featured videos about Bermel Giorgis, drawing in a significantly larger audience.</p>
           </article>
 
           <article>
