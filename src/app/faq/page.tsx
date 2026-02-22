@@ -134,6 +134,9 @@ export default function FAQ() {
           <p className="mt-2">
             Temporary shelters and small houses near the site provide lodging. New facilities are under construction to better serve visitors.
           </p>
+          <p className="mt-2">
+            <strong>Note:</strong> The construction is now completed on January/2026. And was celebrated on January 26/2026, on the Annual Feast of Arch Angel Saint Michael.
+          </p>
         </details>
 
          <details>
